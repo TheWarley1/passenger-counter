@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(184, 184, 121);
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: navy;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow:  5px 2px 1px;
+    color: rgb(235, 235, 227);
+}
+
+.increment-btn{
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: none;
+}
